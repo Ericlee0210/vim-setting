@@ -26,8 +26,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
 
-Plug 'thoughtbot/vim-rspec', { 'for': 'rb' }
-Plug 'tpope/vim-rails', { 'for': 'rb' }
+Plug 'thoughtbot/vim-rspec'
+Plug 'tpope/vim-rails'
 Plug 'ap/vim-css-color', { 'for': ['css', 'scss'] }
 Plug 'pangloss/vim-javascript', { 'for': 'js' }
 Plug 'cakebaker/scss-syntax.vim', { 'for': ['css', 'scss'] }
