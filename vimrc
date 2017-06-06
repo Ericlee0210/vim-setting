@@ -12,6 +12,10 @@ imap <DOWN> <NOP>
 imap <LEFT> <NOP>
 imap <RIGHT> <NOP>
 
+" disable backspace
+inoremap <BS> <NOP>
+inoremap <Del> <NOP>
+
 " install plugin
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
