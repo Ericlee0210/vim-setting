@@ -18,7 +18,7 @@ set showmode
 set nobomb                            " no BOM(Byte Order Mark)
 set nostartofline
 set laststatus=2
-set clipboard+=unnamed
+set clipboard+=unnamed                 " use the clipboards of vim and win
 set splitright                        " always open vertical split window in the right side
 set splitbelow                        " always open horizontal split window below
 set scrolloff=4                       " start scrolling when n lines away from margins
@@ -31,6 +31,7 @@ set synmaxcol=128
 set viminfo=			                    " disable .viminfo file
 set ttyfast                           " send more chars while redrawing
 set lazyredraw
+set mouse=a
 
 filetype on                           " enable filetype detection
 filetype indent on                    " enable filetype-specific indenting
