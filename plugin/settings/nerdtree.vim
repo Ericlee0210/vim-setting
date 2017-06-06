@@ -20,8 +20,5 @@ nnoremap <C-c> :bp\|bd #<CR>
 map gt :bn<CR>
 map gT :bp<CR>
 
-map gv :tabn<CR>
-map gV :tabp<CR>
-
 " comment
 map <Leader><Leader> <Leader>c<space>
