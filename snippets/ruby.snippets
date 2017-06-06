@@ -1,11 +1,7 @@
-snippet hm
-	has_many :${1}s
 snippet ho
 	has_one :${1}
 snippet bt
 	belongs_to :${1}
-snippet habtm
-	has_and_belongs_to_many :${1}
 snippet anaf
 	accepts_nested_attributes_for :${1}
 snippet utf8
@@ -18,5 +14,25 @@ snippet class<
 			${4}
 		end
 	end
+snippet class
+	class ${1:ClassName}
+	end
+snippet module
+	module ${1:ModuleName}
+	end
+snippet hm
+	has_many :${1}
+snippet itdo
+	it "${1}" do
+		${2}
+	end
+snippet RS
+	RSpec.describe ${1:ClassName}, type: ${2:Type} do
+		${3}
+	end
+snippet |
+	|${1:Variable}| ${2}
 snippet =
-	=>${1}
+	=>
+snippet ||
+	||=
