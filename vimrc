@@ -20,7 +20,7 @@ inoremap <Del> <NOP>
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'mileszs/ack.vim'
-Plug 'c9s/colorselector.vim'
+Plug 'c9s/colorselector.vim', { 'on': 'SelectColorS' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'kien/ctrlp.vim'
