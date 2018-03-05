@@ -69,7 +69,7 @@ Plug 'pangloss/vim-javascript', { 'for': ['js', 'javascript.jsx'] }
 Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }
 
 " plugin for C/C++
-Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c++'] }
 
 " plugin for golang
 " Plug 'fatih/vim-go', { 'for': ['go'] }
