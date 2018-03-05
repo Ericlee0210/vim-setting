@@ -34,6 +34,10 @@ Plug 'kana/vim-textobj-line'
 Plug 'kana/vim-textobj-user'
 Plug 'ervandew/supertab'
 
+" plugin for deoplete with whitelist
+Plug 'Shougo/deoplete.nvim', { 'for': ['python', 'javascript', 'ruby'] }
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
 
 " plugin for rails
 Plug 'thoughtbot/vim-rspec'
