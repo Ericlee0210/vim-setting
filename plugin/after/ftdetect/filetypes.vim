@@ -21,3 +21,6 @@ autocmd! BufNewFile,BufRead Podfile,*.podspec set filetype=ruby
 
 " JSX
 autocmd! BufNewFile,BufRead *.jsx set filetype=javascript
+
+" Markdown
+autocmd! BufNewFile,BufRead *.md set filetype=markdown

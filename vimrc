@@ -74,4 +74,7 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 " plugin for golang
 " Plug 'fatih/vim-go', { 'for': ['go'] }
 
+" plugin for markdown
+Plug 'iamcco/markdown-preview.vim', {'for': ['markdown'] }
+
 call plug#end()
