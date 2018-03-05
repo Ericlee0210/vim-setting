@@ -53,6 +53,6 @@ Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }
 Plug 'octol/vim-cpp-enhanced-highlight'
 
 " plugin for golang
-Plug 'fatih/vim-go', { 'for': ['go'] }
+" Plug 'fatih/vim-go', { 'for': ['go'] }
 
 call plug#end()
