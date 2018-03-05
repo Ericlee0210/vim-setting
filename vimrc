@@ -58,6 +58,7 @@ Plug 'thoughtbot/vim-rspec'
 Plug 'tpope/vim-rails'
 
 " plugin for html/css related
+Plug 'mattn/emmet-vim'
 Plug 'slim-template/vim-slim', { 'for': 'slim' }
 Plug 'ap/vim-css-color', { 'for': ['css', 'scss'] }
 Plug 'cakebaker/scss-syntax.vim', { 'for': ['css', 'scss'] }
