@@ -18,6 +18,7 @@ inoremap <Del> <NOP>
 
 " install plugin
 call plug#begin('~/.vim/plugged')
+
 " utility
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'mileszs/ack.vim'
@@ -38,6 +39,13 @@ Plug 'ervandew/supertab'
 Plug 'Shougo/deoplete.nvim', { 'for': ['python', 'javascript', 'ruby'] }
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
+" python
+Plug 'zchee/deoplete-jedi', { 'for': ['python'] }
+" Javascript
+Plug 'carlitux/deoplete-ternjs', { 'for': ['javascript'] }
+Plug 'ternjs/tern_for_vim', { 'for': ['javascript'] }
+" Ruby
+Plug 'fishbullet/deoplete-ruby'
 
 " plugin for rails
 Plug 'thoughtbot/vim-rspec'
