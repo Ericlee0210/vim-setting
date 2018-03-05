@@ -34,10 +34,6 @@ Plug 'kana/vim-textobj-line'
 Plug 'kana/vim-textobj-user'
 Plug 'ervandew/supertab'
 
-" plugin for snipmate
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'tomtom/tlib_vim'
-Plug 'garbas/vim-snipmate'
 
 " plugin for rails
 Plug 'thoughtbot/vim-rspec'
