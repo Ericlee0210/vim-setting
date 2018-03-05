@@ -47,6 +47,12 @@ Plug 'ternjs/tern_for_vim', { 'for': ['javascript'] }
 " Ruby
 Plug 'fishbullet/deoplete-ruby'
 
+" plugin for snipmate with deoplete
+Plug 'Shougo/neocomplete'
+
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
+
 " plugin for rails
 Plug 'thoughtbot/vim-rspec'
 Plug 'tpope/vim-rails'
