@@ -75,6 +75,7 @@ Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c++'] }
 " Plug 'fatih/vim-go', { 'for': ['go'] }
 
 " plugin for markdown
-Plug 'iamcco/markdown-preview.vim', {'for': ['markdown'] }
+Plug 'shime/vim-livedown', {'for': ['markdown'] }
+Plug 'plasticboy/vim-markdown', { 'for': ['markdown'] }
 
 call plug#end()
