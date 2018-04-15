@@ -37,19 +37,21 @@ Plug 'ervandew/supertab'
 
 " plugin for deoplete with whitelist
 Plug 'Shougo/deoplete.nvim', { 'for': ['python', 'javascript', 'ruby'] }
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'roxma/nvim-yarp', { 'for': ['python', 'javascript', 'ruby'] }
+Plug 'roxma/vim-hug-neovim-rpc', { 'for': ['python', 'javascript', 'ruby'] }
+
 " python
 Plug 'zchee/deoplete-jedi', { 'for': ['python'] }
+
 " Javascript
 Plug 'carlitux/deoplete-ternjs', { 'for': ['javascript'] }
 Plug 'ternjs/tern_for_vim', { 'for': ['javascript'] }
+
 " Ruby
-Plug 'fishbullet/deoplete-ruby'
+Plug 'fishbullet/deoplete-ruby', { 'for': ['ruby'] }
 
 " plugin for snipmate with deoplete
 Plug 'Shougo/neocomplete'
-
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 
