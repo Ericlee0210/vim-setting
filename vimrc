@@ -64,7 +64,7 @@ Plug 'ap/vim-css-color', { 'for': ['css', 'scss'] }
 Plug 'cakebaker/scss-syntax.vim', { 'for': ['css', 'scss'] }
 
 " plugin for javascrip related
-Plug 'kchmck/vim-coffee-script', { 'for': ['coffee'] }
+" Plug 'kchmck/vim-coffee-script', { 'for': ['coffee'] }
 Plug 'pangloss/vim-javascript', { 'for': ['js', 'javascript.jsx'] }
 Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }
 
