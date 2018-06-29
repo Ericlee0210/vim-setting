@@ -16,3 +16,18 @@ vmap <c-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
 " cancel searched highlight
 noremap <CR> :nohlsearch<CR>
+
+" disable arrow keys
+map <UP> <NOP>
+map <DOWN> <NOP>
+map <LEFT> <NOP>
+map <RIGHT> <NOP>
+imap <UP> <NOP>
+imap <DOWN> <NOP>
+imap <LEFT> <NOP>
+imap <RIGHT> <NOP>
+
+" disable backspace
+inoremap <BS> <NOP>
+inoremap <Del> <NOP>
+

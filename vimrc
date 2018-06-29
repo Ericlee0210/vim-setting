@@ -2,20 +2,6 @@
 " Ashton Lee
 " https://github.com/Ericlee0210
 
-" disable arrow keys
-map <UP> <NOP>
-map <DOWN> <NOP>
-map <LEFT> <NOP>
-map <RIGHT> <NOP>
-imap <UP> <NOP>
-imap <DOWN> <NOP>
-imap <LEFT> <NOP>
-imap <RIGHT> <NOP>
-
-" disable backspace
-inoremap <BS> <NOP>
-inoremap <Del> <NOP>
-
 " install plugin
 call plug#begin('~/.vim/plugged')
 
