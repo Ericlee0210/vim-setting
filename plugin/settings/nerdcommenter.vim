@@ -9,3 +9,6 @@ let g:NERDDefaultAlign = 'left'
 
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
+
+" comment
+map <Leader><Leader> <Leader>c<space>
