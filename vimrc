@@ -6,7 +6,7 @@
 call plug#begin('~/.vim/plugged')
 
 " utility
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+" Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'mileszs/ack.vim'
 Plug 'c9s/colorselector.vim', { 'on': 'SelectColorS' }
 Plug 'vim-airline/vim-airline'
@@ -42,8 +42,8 @@ Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 
 " plugin for rails
-Plug 'thoughtbot/vim-rspec'
-Plug 'tpope/vim-rails'
+" Plug 'thoughtbot/vim-rspec'
+" Plug 'tpope/vim-rails'
 
 " plugin for html/css related
 Plug 'mattn/emmet-vim'
