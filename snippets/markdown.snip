@@ -18,3 +18,59 @@ snippet r
 options word
     &nbsp;&nbsp;
     ${1}
+
+snippet cb
+abbr code block
+options head
+    \`\`\`${1:#:language}
+    ${2:#:code }
+    \`\`\`
+
+snippet em
+abbr emphasize
+options word
+    __${1}__
+
+snippet c
+    time complexity: \`O(${1})\`
+
+    space complexity: \`O(${2})\`
+
+
+snippet lc
+    [Question](${1})
+
+    ---
+
+    # DIY
+
+    ### Idea
+
+    ### Spec
+
+    ### Brute Force ()
+
+    ### Digest
+
+    ---
+
+    # Learning
+
+    ### Rationale
+
+    ### Implementation
+
+snippet lcfu
+    # Follow-up
+
+    ### Brute Force
+
+    ### Digest
+
+    ---
+
+    # Follow-up Learning
+
+    ### Rationale
+
+    ### Implementation
