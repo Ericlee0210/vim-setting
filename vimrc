@@ -6,7 +6,7 @@
 call plug#begin('~/.vim/plugged')
 
 " utility
-" Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'mileszs/ack.vim'
 Plug 'c9s/colorselector.vim', { 'on': 'SelectColorS' }
 Plug 'vim-airline/vim-airline'
