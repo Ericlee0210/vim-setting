@@ -1,4 +1,4 @@
-let g:deoplete#enable_at_startup = 1
+" let g:deoplete#enable_at_startup = 1
 
 " Use tern_for_vim for javascript
 let g:tern#command = ["tern"]
