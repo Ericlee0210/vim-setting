@@ -66,4 +66,7 @@ Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c++'] }
 Plug 'shime/vim-livedown', {'for': ['markdown'] }
 Plug 'plasticboy/vim-markdown', { 'for': ['markdown'] }
 
+" plugin for docker
+Plug 'ekalinin/Dockerfile.vim', {'for': ['Dockerfile'] }
+
 call plug#end()
