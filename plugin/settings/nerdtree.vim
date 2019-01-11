@@ -1,4 +1,5 @@
 nnoremap <silent> <F2> :NERDTreeToggle<CR>
+
 let NERDTreeShowBookmarks=0
 let NERDTreeChDirMode=2
 let NERDTreeMouseMode=2
@@ -18,5 +19,5 @@ map <leader>r :NERDTreeFind<cr>
 " when I use :bd in nerdtree, it will go to previous buffer and close the last
 nnoremap <C-c> :bp\|bd #<CR>
 
-map gt :bn<CR>
-map gT :bp<CR>
+" map gt :bn<CR>
+" map gT :bp<CR>

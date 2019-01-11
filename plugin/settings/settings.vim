@@ -89,6 +89,3 @@ autocmd WinLeave * setlocal nocursorline
 
 " remove tailing whitespace
 autocmd BufWritePre * if &filetype != "markdown" | :%s/\s\+$//e | endif
-
-" shell setting for RVM
-set shell=/bin/sh
