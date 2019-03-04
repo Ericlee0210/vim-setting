@@ -69,4 +69,7 @@ Plug 'plasticboy/vim-markdown', { 'for': ['markdown'] }
 " plugin for docker
 Plug 'ekalinin/Dockerfile.vim', {'for': ['Dockerfile'] }
 
+" plugin for ocaml
+Plug 'OCamlPro/ocp-indent', {'for': ['ocaml']}
+
 call plug#end()
