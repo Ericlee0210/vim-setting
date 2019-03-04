@@ -24,3 +24,6 @@ autocmd! BufNewFile,BufRead *.jsx set filetype=javascript
 
 " Markdown
 autocmd! BufNewFile,BufRead *.md set filetype=markdown
+
+" Ocaml
+autocmd! BufNewFile,BufRead *.ml set filetype=ocaml
