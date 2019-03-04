@@ -1,0 +1,16 @@
+snippet     cmt
+options     head
+	""" ${0:#:comment} """
+
+snippet     cmtm
+options     head
+	"""
+	${0:#:comment}
+	"""
+
+snippet     def3
+abbr        def function(...): ...
+options     head
+	def ${1:#:name}(${2}) -> ${3:return_type}:
+		${0:pass}
+
