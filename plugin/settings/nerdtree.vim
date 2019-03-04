@@ -11,7 +11,7 @@ let NERDTreeShowHidden=1
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
 let g:NERDTreeWinSize=30
-let NERDTreeIgnore=['\.pyc$']
+let NERDTreeIgnore=['\.pyc$', '__pycache__', '\.coverage', '\.log$', 'celerybeat-schedule', '\.DS_Store$']
 
 " open directory of current opened file
 map <leader>r :NERDTreeFind<cr>

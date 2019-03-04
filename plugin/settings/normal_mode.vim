@@ -14,6 +14,12 @@ vmap <S-TAB> <gv
 " vmap <c-j> :m'>+<cr>`<my`>mzgv`yo`z
 " vmap <c-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
+" easy switch over pane
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 nnoremap <C-RIGHT> :vertical res-1<CR>
 nnoremap <C-LEFT> :vertical res+1<CR>
 nnoremap <C-UP> :res+1<CR>
