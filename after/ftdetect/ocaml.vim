@@ -1,3 +1,9 @@
+if executable("ocamlc")
+  autocmd BufRead,BufNewFile *.ml map <F5> :% w ! ocamlc % -o %< && ./%< && rm ./%<<CR>
+else
+  autocmd BufRead,BufNewFile *.ml map <F5> :echo "you need to install ocaml first!"<CR>
+endif
+
 " ## added by OPAM user-setup for vim / base ## 93ee63e278bdfc07d1139a748ed3fff2 ## you can edit, but keep this line
 
 let s:opam_share_dir = system("opam config var share")

@@ -43,7 +43,7 @@ set incsearch                         " incremental search
 syntax enable
 set t_Co=256
 try
-  colorscheme solarized_dark
+  colorscheme atom_dark_256
 catch
 endtry
 
